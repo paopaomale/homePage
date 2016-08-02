@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"/>
+<head>
+    <title>跑跑测试</title>
+    <style>
+    </style>
+</head>
+
+<body> 
+     <app id="app"></app>
+    <script src="fetch.js"></script>
+    <script src="build.js"></script>
+    <script>
+    	if (navigator.serviceWorker) {
+		    navigator.serviceWorker.register('./service-worker.js', {scope: './'})
+		        .then(function (registration) {
+		            console.log(registration);
+		        })
+		        .catch(function (e) {
+		            console.error(e);
+		        })
+		} else {
+		    console.log('Service Worker is not supported in this browser.')
+		}
+    </script>
+</body>
+</html>
