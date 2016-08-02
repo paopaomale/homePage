@@ -9,7 +9,7 @@
 
 <body> 
      <app id="app"></app>
-    <script>
+     <script>
     	if (navigator.serviceWorker) {
 		    navigator.serviceWorker.register('./service-worker.js', {scope: './'})
 		        .then(function (registration) {
@@ -22,5 +22,7 @@
 		    console.log('Service Worker is not supported in this browser.')
 		}
     </script>
+      <script src="fetch.js"></script>
+    <script src="build.js"></script>
 </body>
 </html>
