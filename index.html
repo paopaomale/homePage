@@ -1,1 +1,28 @@
-<!DOCTYPE html><title>Trained To Thrill</title><meta charset=utf-8><meta name=viewport content="width=device-width,minimum-scale=1,minimal-ui"><link rel=apple-touch-icon-precomposed href=imgs/icon.png><link rel=icon href=imgs/icon.png><meta name=apple-mobile-web-app-capable content=yes><meta name=application-name content="Trained To Thrill"><link rel=stylesheet href=css/all.css><header class=site-header><img class=logo src=imgs/logo.svg alt="Trained To Thrill"><div class=container><div class=inner><button class="custom refresh loading"><svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 100 100"><circle cx=50 r=40 cy=50 /><path d=M99.7.658v43.5h-44.4z /></svg></button></div></div></header><div class=msg-container><div class=msg></div></div><div class=photos></div><script src=js/page.js></script>
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0"/>
+<head>
+    <title>跑跑测试</title>
+    <style>
+    </style>
+</head>
+
+<body> 
+     <app id="app"></app>
+    <script src="fetch.js"></script>
+    <script src="build.js"></script>
+    <script>
+    	if (navigator.serviceWorker) {
+		    navigator.serviceWorker.register('./service-worker.js', {scope: './'})
+		        .then(function (registration) {
+		            console.log(registration);
+		        })
+		        .catch(function (e) {
+		            console.error(e);
+		        })
+		} else {
+		    console.log('Service Worker is not supported in this browser.')
+		}
+    </script>
+</body>
+</html>
