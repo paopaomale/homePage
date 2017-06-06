@@ -1,0 +1,1 @@
+define("mui/chaoshi-item/index-row-list",function(i,n,e){"use strict";var s=i("./index-row.xtpl");var c=i("./util/index");i("./index-row.css");i("./index-row-list.css");e.exports=function(i){return c.renderList(i,s,{wrapClass:"mui-chaoshi-item-rows",imgSpec:"220x220Q50s150"})}});

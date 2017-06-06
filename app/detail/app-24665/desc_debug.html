@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>电脑版图文详情</title>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="spm-id" content="a2141" />
+    <script type="text/javascript">
+        window.onerror = function(e){
+            console.error(e);
+        }
+        //页面加载时间打点
+        window['detailLoadTime'] = Date.now();
+        (function(){
+            var params = location.search.slice(1).split('&');
+            var hashs = location.hash.slice(2).split('&');
+            params = params.concat(hashs);
+            var tmParam = {};
+            var tmKey;
+            for(var i=0,len=params.length;i<len;i++){
+                tmKey = params[i].split('=');
+                tmParam[tmKey[0]] = tmKey[1];
+            }
+            var descType = tmParam.type || 0;
+            var userId = tmParam.buyerId;
+            userId = userId ? String(userId) : null;
+            if(descType && descType == 1){
+                document.write('<meta name="viewport" content="width=750,maximum-scale=1,user-scalable=yes" />');
+            }
+            else{
+                dpr = 1;
+                document.write('<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport" />')
+            }
+        })();
+    </script>
+    <link type="text/css" rel="stylesheet" href="./css/detail_new.css" />
+</head>
+<body data-spm="7690265"><script type="text/javascript" src="//g.alicdn.com/alilog/wlog/0.4.8/??aplus_wap.js,spm_wap.js,spmact_wap.js" async defer></script><script type="text/javascript" id="aplus-sufei" src="//g.alicdn.com/secdev/sufei_data/2.0.4/index.js" async defer></script>
+<div id="J_loading" class="loading"><div class="loading-icon"></div></div>
+<script src="//h5.m.taobao.com/app/lib/js/zepto.1.0.4.js"></script>
+<!-- <script src="//h5.wapa.taobao.com/app/detail/js/aplus_wap.js"></script>
+ --><script src="//h5.m.taobao.com/app/detail/js/combo.js"></script>
+<script src="//h5.m.taobao.com/app/detail/js/detail_new.js"></script>
+</body>
+</html>

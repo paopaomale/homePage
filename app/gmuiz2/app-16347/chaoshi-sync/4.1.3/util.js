@@ -1,0 +1,1 @@
+define("mui/chaoshi-sync/util",function(e,i,t){"use strict";t.exports={config:function n(e){return Object.assign({el:"body",attrChannel:"data-channel",attrId:"data-itemid",attrActId:"data-act-id",soldOutClass:"soldout",priceEl:".j_CurPrice",itemEl:".j_ItemInfo",syncPrice:false,useWmPrice:true,syncInventory:false,syncInventoryAct:false},e)}}});

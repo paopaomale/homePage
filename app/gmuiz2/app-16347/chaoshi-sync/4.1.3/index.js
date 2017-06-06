@@ -1,0 +1,1 @@
+define("mui/chaoshi-sync/index",function(n,e,i){"use strict";var r=n("./inventory-act");var c=n("./price-inventory");var s=function t(n){return new Promise(function(e,i){var s=null,t=null;if(n.syncPrice||n.syncInventory){t=c(n)}if(n.syncInventoryAct){s=r(n)}t=t?t:Promise.resolve();s=s?s:Promise.resolve();Promise.all([s,t]).then(function(n){e()})})};i.exports=s});

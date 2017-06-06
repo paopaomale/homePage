@@ -1,0 +1,1 @@
+define("mui/zebra-banner4-w990/index",function(e,t,a){"use strict";e("mui/kissy-polyfill/");var i=e("mui/tmall-dynamic/index");function n(e){new i({DynamicItemCls:e,isOpenMtop:true})}a.exports=n});

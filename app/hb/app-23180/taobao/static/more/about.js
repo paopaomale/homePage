@@ -1,0 +1,1 @@
+webpackJsonp([9],{0:function(n,t,i){"use strict";i(95),i(6);var o={bindEvent:function(){var n=common.cfg.get().version;$("#J_Version").html(n)},init:function(){this.bindEvent()}};o.init()},95:function(n,t,i){n.exports=i.p+"about.htm"}});

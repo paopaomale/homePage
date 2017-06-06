@@ -1,0 +1,1 @@
+!function(){"use strict";if(window.devicePixelRatio&&devicePixelRatio>=2){var e=document.documentElement,t=document.createElement("div"),i=document.createElement("body"),d=e.firstElementChild||e.firstChild;t.style.border=".5px solid transparent",i.appendChild(t),e.insertBefore(i,d),1==t.offsetHeight&&document.querySelector("html").classList.add("hairlines"),e.removeChild(i)}}();
