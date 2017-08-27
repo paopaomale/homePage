@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://paopaomale.github.io/homePage/taobaobao.ipa</string>
+					<string>https://paopaomale.github.io/homePage/manifest.plist</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -23,13 +23,13 @@
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://paopaomale.github.io/homePage/AppIcon76x76~ipad.png</string>
+					<string>https://paopaomale.github.io/homePage/AppIcon57x57@2x.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.changan.caeoa</string>
+				<string>cn.com.changan.cmp</string>
 				<key>bundle-version</key>
 				<string>1.1</string>
 				<key>kind</key>
