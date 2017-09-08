@@ -1,1 +1,0 @@
-define("mui/mdv/zebra",function(e,t,r){var n=e("mui/mdv/index");r.exports=function(e,t){var r=n.instance();r.addElement(e,null,{zebraCfg:t})}});

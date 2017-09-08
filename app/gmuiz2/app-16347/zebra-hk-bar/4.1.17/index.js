@@ -1,1 +1,0 @@
-define("mui/zebra-hk-bar/index",function(n,i,o){const e=n("mui/pure-bottom/index");function t(n){if(window.__PureBottomConfig){new e(window.__PureBottomConfig)}}o.exports=t});

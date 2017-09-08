@@ -1,1 +1,0 @@
-webpackJsonp([8],{0:function(n,i,E){"use strict";E(98),E(6);var t=E(30),e=window,o=e.common,R={init:function(){o.page.payed(),(0,t.notifyPageRefresh)([t.SHOULD_REFRESH_PAGE.REPAY,t.SHOULD_REFRESH_PAGE.DETAIL,t.SHOULD_REFRESH_PAGE.INDEX])}};Ali.ready(function(){R.init()})},98:function(n,i,E){n.exports=E.p+"payed.htm"}});

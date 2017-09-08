@@ -1,1 +1,0 @@
-define("mui/zebra-floor-text-title/index",function(i,e,n){i("mui/kissy-polyfill/index");var t=i("mui/datalazyload/index");var a=i("mui/crossimage/index");function l(i){var e=t.instance();e.addStartListener(a.DatalazyPlugin(i));e.addElements(i)}n.exports=l});

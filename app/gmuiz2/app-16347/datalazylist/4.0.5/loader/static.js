@@ -1,1 +1,0 @@
-define("mui/datalazylist/loader/static",function(e,t,i){function r(e){return{totalNum:e.length,get:function(t){return e[t]},fetch:function(t,i){i&&i(e[t])}}}i.exports=r});

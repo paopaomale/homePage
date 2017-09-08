@@ -1,1 +1,0 @@
-define("mui/chaoshi-item/index-column",function(i,n,e){"use strict";var s=i("./index-column.xtpl");i("./index-column.css");e.exports=function(i){return s(i)}});

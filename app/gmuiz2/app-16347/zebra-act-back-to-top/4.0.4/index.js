@@ -1,1 +1,0 @@
-define("mui/zebra-act-back-to-top/index",function(t,n,o){"use strict";function i(n){function o(){t(["mui/backtop/index","mui/zebra-act-back-to-top/index.css"],function(t){var n=window.BACKTOTOPCONFIG||{bottom:30,right:10};new t(n)})}window.addEventListener("load",function(){setTimeout(function(){o()},1500)})}o.exports=i});
